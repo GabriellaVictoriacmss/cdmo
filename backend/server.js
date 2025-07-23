@@ -67,6 +67,10 @@ app.put('/messages/:id/like', async (req, res) => {
 });
 
 const port = process.env.PORT || 4000;
+app.get('/', (req, res) => {
+  res.send('API está rodando 💙');
+});
+
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
