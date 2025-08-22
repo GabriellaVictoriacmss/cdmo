@@ -21,7 +21,7 @@ const Panel = styled.div`
   top: 0;
   width: 250px;
   height: 100vh;
-  background-color: #4C8BFF;
+  background-color: #B31616;
   box-shadow: -2px 0 10px rgba(0,0,0,0.2);
   padding: 2rem;
   z-index: 1001;
@@ -43,6 +43,10 @@ const Job = styled.p`
   margin-bottom: 1.2rem;
   font-style: italic;
   color: white;
+
+  i {
+    font-weight: bold;
+  }
 `;
 
 const Button = styled.button`
@@ -82,13 +86,13 @@ export const Profile = ({ onClose }) => {
 
         {isAdmin ? (
           <>
-            <Job><strong>Cargo:</strong> Ficante premium da Samara</Job>
-            <Job><strong>Próximo cargo:</strong> Namorado da samara</Job>
+            <Job><strong>Cargo: </strong>Namorado lindo da Samara</Job>
+            <Job><i>Eu vou casar com você, doidona!</i></Job>
           </>
         ) : (
           <>
-            <Job><strong>Cargo:</strong> Ficante Premium Plus Master do Pedro</Job>
-            <Job><strong>Próximo cargo:</strong> Namorada do Pedro</Job>
+            <Job><strong>Cargo:</strong>Namorada linda do Pedro</Job>
+            <Job><i>Você vai casar comigo :P</i></Job>
           </>
         )}
 

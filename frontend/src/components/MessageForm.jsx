@@ -40,7 +40,7 @@ const Button = styled.button`
   transition: background 0.3s;
 
   &:hover {
-    background-color: #517aa8;
+    background-color: #b31616a2;
   }
 `;
 

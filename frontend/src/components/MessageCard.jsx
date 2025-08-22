@@ -26,8 +26,8 @@ const Content = styled.div`
 `;
 
 const Author = styled.span`
-  font-weight: 500;
-  color: #6c6c6c;
+  font-weight: bold;
+  color: #B31616;
   margin-bottom: 0.2rem;
 `;
 
