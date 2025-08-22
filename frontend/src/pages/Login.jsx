@@ -6,7 +6,7 @@ import { users } from '../config';
 
 const Background = styled.div`
   height: 100vh;
-  background-color: #4C8BFF;
+  background-color: #B31616;
   display: flex;
   justify-content: center;
   align-items: center;
